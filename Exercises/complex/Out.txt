@@ -1,0 +1,18 @@
+sqrt(-1)= 6.12e-17+1i, i=0+1i
+sqrt(-1)=i ? True
+
+sqrt(i)= 0.707+0.707i, from euler's formula: sqrt(i)=1/Sqrt(2)+i/Sqrt(2)
+sqrt(i)=1/Sqrt(2)+i/Sqrt(2) ? True
+
+ln(i) = 0+1.57i ,  from euler's formula: ln(i) = i*π/2
+ln(i)=i*π/2 ? True
+
+i^i = 0.208+0i ,  from euler's formula: i^i = e^(-π/2)
+i^i = e^(-π/2) ? True
+
+e^iπ = -1+1.22e-16i
+
+sin(iπ) = 0+11.5i
+
+e^i = 0.54+0.841i
+
