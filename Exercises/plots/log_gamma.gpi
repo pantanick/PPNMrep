@@ -1,0 +1,12 @@
+\
+	set terminal svg background "white";\
+	set out "Out.gamma.gnuplot.svg" ;\
+	set key left ;\
+	set xlabel "x" ;\
+	set ylabel "gamma (x)";\
+	set tics out ;\
+	set grid ;\
+	set title "Gamma function" ;\
+	plot [0:5] \
+		"Out.gamma.txt" with lines notitle \
+		
