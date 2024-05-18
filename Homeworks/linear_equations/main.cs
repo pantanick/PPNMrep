@@ -7,8 +7,8 @@ public class main{
 		System.Console.WriteLine("Number of columns (m) of matrix A:");
 		int m=int.Parse(Console.ReadLine());
 		*/
-		int n=8;
-		int m=8;
+		int n=9;
+		int m=3;
 		var random = new System.Random(DateTime.Now.Millisecond);
 		vector b = new vector(n);
 		matrix A = new matrix(n,m);
@@ -30,7 +30,7 @@ public class main{
 		matrix Q = qrgsInstance.getQ();
 		int check = 0;
 		for (int i = 0; i < R.size1; i++) {
-		    for (int j = 0; j < i; j++) {
+		    for (int j = 0; j < Math.Min(i,m); j++) {
 		        if (R[i, j] != 0) {
 		            check+= 1;
         		    break;
