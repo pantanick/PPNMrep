@@ -1,4 +1,4 @@
-SDKDIR=$(HOME)/.dotnet/sdk/6.0.102# or whatever your sdk is
+SDKDIR=$(HOME)/.dotnet/sdk/6.0.102#
 CSCPATH=$(SDKDIR)/Roslyn/bincore/csc.dll
 NETSTANDARD=$(SDKDIR)/ref/netstandard.dll
 CONFIG=$(SDKDIR)/vstest.console.runtimeconfig.json

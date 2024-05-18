@@ -1,15 +1,9 @@
 using System;
 public class main{
 	public static void Main(){
-		/*Test for user input for matrix dimensions.
-		System.Console.WriteLine("Number of rows (n) of matrix A:");
-		int n=int.Parse(Console.ReadLine());
-		System.Console.WriteLine("Number of columns (m) of matrix A:");
-		int m=int.Parse(Console.ReadLine());
-		*/
-		int n=9;
-		int m=3;
-		var random = new System.Random(DateTime.Now.Millisecond);
+		int n=7;
+		int m=7;
+		var random = new System.Random(/*DateTime.Now.Millisecond*/);
 		vector b = new vector(n);
 		matrix A = new matrix(n,m);
 		for (int i=0;i<n;i++){
