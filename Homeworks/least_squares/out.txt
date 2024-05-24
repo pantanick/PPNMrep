@@ -1,0 +1,64 @@
+- -input:data.txt
+Input file: data.txt
+
+Reading data
+
+t[0]: 1, y[0]: 117, dy[0] : 6
+t[1]: 2, y[1]: 100, dy[1] : 5
+t[2]: 3, y[2]: 88, dy[2] : 4
+t[3]: 4, y[3]: 72, dy[3] : 4
+t[4]: 6, y[4]: 53, dy[4] : 4
+t[5]: 9, y[5]: 29.5, dy[5] : 3
+t[6]: 10, y[6]: 25.2, dy[6] : 3
+t[7]: 13, y[7]: 15.2, dy[7] : 2
+t[8]: 15, y[8]: 11.1, dy[8] : 2
+
+Creating random matrix A, running QR and checking result
+
+A = 
+     0.564        0.6      0.723      0.813 
+    0.0631      0.329      0.268    0.00827 
+     0.774     0.0829      0.613      0.732 
+     0.843      0.734      0.148      0.608 
+     0.978      0.421      0.225      0.275 
+Q = 
+      0.35      0.463        0.6      0.183 
+    0.0392       0.48      0.271      -0.63 
+     0.481     -0.575      0.479      0.166 
+     0.524      0.426     -0.475       0.45 
+     0.608     -0.209     -0.334     -0.583 
+R = 
+      1.61      0.903      0.773       1.12 
+         0      0.612      0.126       0.16 
+         0          0      0.655      0.461 
+         0          0          0      0.377 
+Q^T * Q is approximately equal to the identity matrix
+Q * R is approximately equal to matrix A
+
+Decay of Thx
+
+A = 
+      19.5      -19.5 
+        20        -40 
+        22        -66 
+        18        -72 
+      13.3      -79.5 
+      9.83      -88.5 
+       8.4        -84 
+       7.6      -98.8 
+      5.55      -83.3 
+R = 
+    0.0223          0 
+    0.0275    0.00716 
+Coefficients vector c:
+
+      4.96      0.171 
+Coefficients vector c - Errors:
+
+    0.0354    0.00716 
+Covariance matrix
+
+   0.00125   0.000197 
+  0.000197   5.12e-05 
+Given half life value of ThX = 3.64 days
+Measured half life value of ThX = 4.06242368851649 +- 0.170393518471826 days
