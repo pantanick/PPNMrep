@@ -1,0 +1,39 @@
+
+ Matrix A (x sinx)= 
+
+         0          0 
+         1      0.841 
+         2      0.909 
+         3      0.141 
+         4     -0.757 
+         5     -0.959 
+         6     -0.279 
+         7      0.657 
+         8      0.989 
+         9      0.412 
+
+ Vector x = 
+         0          1          2          3          4          5          6          7          8          9 
+
+ Vector y (sinx)= 
+         0      0.841      0.909      0.141     -0.757     -0.959     -0.279      0.657      0.989      0.412 
+
+ Spline value at x=0 : 0 
+
+ Spline value at x=1 : 0.841470984807897 
+
+ Spline value at x=2 : 0.909297426825682 
+
+ Spline value at x=3 : 0.141120008059867 
+
+ Spline value at x=4 : -0.756802495307928 
+
+ Spline value at x=5 : -0.958924274663138 
+
+ Spline value at x=6 : -0.279415498198926 
+
+ Spline value at x=7 : 0.656986598718789 
+
+ Spline value at x=8 : 0.989358246623382 
+
+ Spline value at x=9 : 0.412118485241757 
