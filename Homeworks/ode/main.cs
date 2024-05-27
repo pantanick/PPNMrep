@@ -26,6 +26,7 @@ public static class main{
 				writer.Write($"{xlist_harmonic[i]} ");
 				ylist_harmonic[i].print("", "{0:g10} ", writer);
 			}
+		writer.Close();
 		}
 		var result_friction = ode.driver(osci_friction, (0.0, 10.0), ystart);
 		var (xlist_friction,ylist_friction)=result_friction;
