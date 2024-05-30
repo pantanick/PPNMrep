@@ -45,7 +45,9 @@ public class main {
 		};	
 		Console.WriteLine($"Comparing to result for integer z to exact values");
 		for(int k=-3;k<=3;k++){
-			Console.WriteLine($"z={k}: Calculated erf(z)={integration.erf(k)} , Exact value={exactErfValues[k+3]}, Error = {System.Math.Abs(integration.erf(k) - exactErfValues[k+3])}");
+			double calculatedErf = integration.erf(k);
+			double exactErf = exactErfValues[k+3];
+			Console.WriteLine($"z={k}: Calculated erf(z)={calculatedErf} , Exact value={exactErf}, Error = {System.Math.Abs(calculatedErf - exactErf)}");
 		}
 	}//Main
 }//class main
