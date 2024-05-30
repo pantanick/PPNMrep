@@ -15,7 +15,7 @@ The integral of ln(x)/sqrt(x) from 0 to 1 is approximately: -3.99991705899915
 Accurate value = -4 , Calculation error = 8.29410008478249E-05
 
 Proceeding to calculating and plotting the error function for -3≤z≤3
-Comparing to result for integer z to exact values
+Comparing result for integer z to exact values
 z=-3: Calculated erf(z)=-0.999978632326396 , Exact value=-0.999977909503001, Error = 7.22823394916361E-07
 z=-2: Calculated erf(z)=-0.994900318508938 , Exact value=-0.995322265018953, Error = 0.000421946510014815
 z=-1: Calculated erf(z)=-0.842729958487199 , Exact value=-0.842700792949715, Error = 2.91655374837774E-05

@@ -43,7 +43,7 @@ public class main {
 			0.99532226501895273416,
 			0.99997790950300141464
 		};	
-		Console.WriteLine($"Comparing to result for integer z to exact values");
+		Console.WriteLine($"Comparing result for integer z to exact values");
 		for(int k=-3;k<=3;k++){
 			double calculatedErf = integration.erf(k);
 			double exactErf = exactErfValues[k+3];
