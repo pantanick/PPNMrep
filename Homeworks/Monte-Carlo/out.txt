@@ -1,0 +1,36 @@
+Test calculation:
+Estimated area of the unit circle: 3.15488, Error : 0.00516357645978056, Number of sampling points : 100000
+Proceeding to calculating plot data
+
+
+Plain M-C :
+N: 1000, Estimated Area = 3.188, Estimated Error = 0.0508788364646834, Actual Error = 0.0464073464102071
+Halton M-C :
+N: 1000, Estimated Area: 3.148, Estimated Error: 0.0366203222268729, Actual Error: 0.00640734641020702
+
+Plain M-C :
+N: 10000, Estimated Area = 3.1896, Estimated Error = 0.0160774744285289, Actual Error = 0.0480073464102069
+Halton M-C :
+N: 10000, Estimated Area: 3.1408, Estimated Error: 0.0116158842969444, Actual Error: 0.00079265358979308
+
+Plain M-C :
+N: 100000, Estimated Area = 3.14804, Estimated Error = 0.00517880696531547, Actual Error = 0.00644734641020683
+Halton M-C :
+N: 100000, Estimated Area: 3.1412, Estimated Error: 0.00367264384333684, Actual Error: 0.000392653589793124
+
+Plain M-C :
+N: 1000000, Estimated Area = 3.144132, Estimated Error = 0.00164041518115872, Actual Error = 0.00253934641020681
+Halton M-C :
+N: 1000000, Estimated Area: 3.141552, Estimated Error: 0.00116121897833613, Actual Error: 4.06535897932159E-05
+
+Plain M-C :
+N: 10000000, Estimated Area = 3.1416496, Estimated Error = 0.000519291458703091, Actual Error = 5.69464102069261E-05
+Halton M-C :
+N: 10000000, Estimated Area: 3.1415844, Estimated Error: 0.000367204647143568, Actual Error: 8.25358979295032E-06
+
+
+Calculating value of the given complex integral, number of sampling points: N = 1000000
+Calculated value = 1.3887715832861, Actual value = 1.39320392968568, Estimated error = 0.00674343902318792, Actual error = 0.00443234639957701
+
+Calculating value of the given complex integral using the Halton sequence, number of sampling points: N = 1000000
+Calculated value = 1.39064529820391, Actual value = 1.39320392968568, Estimated error = 0.00744228900506183, Actual error = 0.00255863148176338
