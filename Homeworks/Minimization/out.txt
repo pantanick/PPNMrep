@@ -1,0 +1,201 @@
+Rosenbrock's valley function: f(x,y)=(1-x)^2 + 100(y-x^2)^2
+
+Iteration 0:	 x =         -4          5 
+Gradient(φ) :  -1.76e+04   -2.2e+03 
+
+Iteration 1:	 x =         -4         16 
+Gradient(φ) :      -11.4     -0.172 
+
+Iteration 2:	 x =       -3.6       12.8 
+Gradient(φ) :       -238      -31.8 
+
+Iteration 3:	 x =      -3.46       11.9 
+Gradient(φ) :      -37.1      -4.08 
+
+Iteration 4:	 x =      -3.21       10.2 
+Gradient(φ) :       -107      -15.3 
+
+Iteration 5:	 x =      -2.94       8.59 
+Gradient(φ) :        -91      -14.1 
+
+Iteration 6:	 x =      -2.67       7.08 
+Gradient(φ) :      -84.3      -14.4 
+
+Iteration 7:	 x =      -2.43       5.84 
+Gradient(φ) :      -64.9      -11.9 
+
+Iteration 8:	 x =      -2.16       4.59 
+Gradient(φ) :      -69.8      -14.7 
+
+Iteration 9:	 x =      -1.95       3.78 
+Gradient(φ) :      -38.4      -8.32 
+
+Iteration 10:	 x =      -1.63       2.56 
+Gradient(φ) :      -73.5      -20.9 
+
+Iteration 11:	 x =      -1.51       2.27 
+Gradient(φ) :      -13.8      -2.91 
+
+Iteration 12:	 x =      -1.18       1.28 
+Gradient(φ) :      -59.2      -23.3 
+
+Iteration 13:	 x =      -1.09       1.18 
+Gradient(φ) :      -7.72      -1.62 
+
+Iteration 14:	 x =     -0.886      0.738 
+Gradient(φ) :      -20.6      -9.51 
+
+Iteration 15:	 x =     -0.706      0.466 
+Gradient(φ) :      -12.6       -6.5 
+
+Iteration 16:	 x =     -0.477      0.176 
+Gradient(φ) :      -12.9      -10.4 
+
+Iteration 17:	 x =     -0.348      0.104 
+Gradient(φ) :      -5.03      -3.35 
+
+Iteration 18:	 x =     -0.192    0.00445 
+Gradient(φ) :      -4.89      -6.52 
+
+Iteration 19:	 x =    -0.0336    -0.0241 
+Gradient(φ) :      -2.41      -5.05 
+
+Iteration 20:	 x =      0.137    -0.0103 
+Gradient(φ) :     -0.118      -5.85 
+
+Iteration 21:	 x =      0.263     0.0535 
+Gradient(φ) :      0.195      -3.17 
+
+Iteration 22:	 x =       0.44      0.162 
+Gradient(φ) :       4.34      -6.21 
+
+Iteration 23:	 x =      0.517      0.261 
+Gradient(φ) :      0.276       -1.2 
+
+Iteration 24:	 x =      0.626      0.377 
+Gradient(φ) :       2.94      -2.95 
+
+Iteration 25:	 x =       0.72      0.509 
+Gradient(φ) :       1.98      -1.77 
+
+Iteration 26:	 x =       0.82      0.662 
+Gradient(φ) :       2.92         -2 
+
+Iteration 27:	 x =      0.879      0.769 
+Gradient(φ) :      0.993     -0.703 
+
+Iteration 28:	 x =      0.948      0.894 
+Gradient(φ) :       1.72     -0.961 
+
+Iteration 29:	 x =      0.974      0.948 
+Gradient(φ) :      0.206     -0.132 
+
+Iteration 30:	 x =      0.996      0.992 
+Gradient(φ) :      0.184    -0.0962 
+
+Iteration 31:	 x =      0.999      0.999 
+Gradient(φ) :    0.00369   -0.00234 
+
+Iteration 32:	 x =          1          1 
+Gradient(φ) :   2.97e-05   -3.9e-05 
+
+Convergence reached after 32 iterations
+Calculated minimum :          1          1 
+from starting point :         -4          5 
+
+Himmelblau's function: f(x,y)=(x^2+y-11)^2 + (x+y^2-7)^2
+
+Iteration 0:	 x =        2.5         -2 
+Gradient(φ) :      -68.5       -9.5 
+
+Iteration 1:	 x =       3.86      -1.94 
+Gradient(φ) :       32.1     -0.777 
+
+Iteration 2:	 x =       3.61      -1.86 
+Gradient(φ) :       2.83     -0.095 
+
+Iteration 3:	 x =       3.58      -1.85 
+Gradient(φ) :     0.0313   -0.00153 
+
+Iteration 4:	 x =       3.58      -1.85 
+Gradient(φ) :   9.64e-06   5.18e-07 
+
+Convergence reached after 4 iterations
+Calculated minimum :       3.58      -1.85 
+from starting point : 	       2.5         -2 
+
+
+Iteration 0:	 x =          5          5 
+Gradient(φ) :        426        498 
+
+Iteration 1:	 x =       3.69       3.49 
+Gradient(φ) :        107        135 
+
+Iteration 2:	 x =       3.08       2.61 
+Gradient(φ) :       19.1       32.3 
+
+Iteration 3:	 x =       2.97       2.17 
+Gradient(φ) :       1.03       5.88 
+
+Iteration 4:	 x =          3       2.02 
+Gradient(φ) :     0.0586      0.577 
+
+Iteration 5:	 x =          3          2 
+Gradient(φ) :    0.00104    0.00857 
+
+Iteration 6:	 x =          3          2 
+Gradient(φ) :  -4.29e-07    3.6e-06 
+
+Convergence reached after 6 iterations
+Calculated minimum :          3          2 
+from starting point : 	         5          5 
+
+
+Iteration 0:	 x =        -10        -10 
+Gradient(φ) :  -2.99e+03  -3.16e+03 
+
+Iteration 1:	 x =      -7.11      -7.01 
+Gradient(φ) :       -854       -916 
+
+Iteration 2:	 x =      -5.31      -5.11 
+Gradient(φ) :       -230       -256 
+
+Iteration 3:	 x =      -4.31      -3.98 
+Gradient(φ) :        -53      -65.1 
+
+Iteration 4:	 x =      -3.88      -3.44 
+Gradient(φ) :      -7.71        -12 
+
+Iteration 5:	 x =      -3.78      -3.29 
+Gradient(φ) :     -0.326     -0.806 
+
+Iteration 6:	 x =      -3.78      -3.28 
+Gradient(φ) :  -0.000757   -0.00412 
+
+Iteration 7:	 x =      -3.78      -3.28 
+Gradient(φ) :   3.52e-07   7.13e-07 
+
+Convergence reached after 7 iterations
+Calculated minimum :      -3.78      -3.28 
+from starting point : 	       -10        -10 
+
+
+Iteration 0:	 x =         -3        2.5 
+Gradient(φ) :      -13.5      -36.5 
+
+Iteration 1:	 x =       -2.8        3.5 
+Gradient(φ) :       1.34       34.7 
+
+Iteration 2:	 x =       -2.8       3.18 
+Gradient(φ) :      0.207       4.09 
+
+Iteration 3:	 x =      -2.81       3.13 
+Gradient(φ) :    0.00497     0.0904 
+
+Iteration 4:	 x =      -2.81       3.13 
+Gradient(φ) :   2.85e-06   6.37e-05 
+
+Convergence reached after 4 iterations
+Calculated minimum :      -2.81       3.13 
+from starting point : 	        -3        2.5 
+
