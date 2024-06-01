@@ -1,0 +1,19 @@
+Rosenbrock's valley function: f(x,y)=(1-x)^2 + 100(y-x^2)^2
+Gradient = (2(x-1)+400x(x^2-y) , 200(y-x^2))
+Calculated root of gradient :          1          1 
+from starting point :        0.1        0.1 
+
+Himmelblau's function: f(x,y)=(x^2+y-11)^2 + (x+y^2-7)^2
+Gradient = (4*x*(x*x+y-11)+2*(x+y*y-7),2(x*x+y-11)+4*y*(x+y*y-7))
+Calculated root of gradient :          3          2 
+from starting point : 	         2        1.5 
+
+Calculated root of gradient :      -2.81       3.13 
+from starting point : 	        -3        2.5 
+
+Calculated root of gradient :      -3.78      -3.28 
+from starting point : 	        -3       -3.5 
+
+Calculated root of gradient :       3.58      -1.85 
+from starting point : 	       2.5         -2 
+
