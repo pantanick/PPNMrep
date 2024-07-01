@@ -1,0 +1,174 @@
+Matrix A:
+4 1 2 3 
+1 5 4 2 
+2 4 6 1 
+3 2 1 3 
+Matrix A size: 4x4
+
+
+Initial guess for eigenvalue λStart: 1
+Initial guess for eigenvector vStart: 1, 1, 1
+Eigenvalue: 4.69780989126861
+Eigenvector before normalization:
+	0.660401350304405 -0.3313704861895 -0.408150477857627 0.536168704534481 
+Eigenvector after normalization:
+	0.660401338780752 -0.331370480407261 -0.408150470735617 0.536168695178621 
+Verification: Av = λ*v ?
+	Av[0] = 3.10244001878038, λ*v[0] = 3.10243994153125
+	Av[1] = -1.55671555584078, λ*v[1] = -1.55671552053166
+	Av[2] = -1.91741337330262, λ*v[2] = -1.91741331854772
+	Av[3] = 2.51881867032798, λ*v[3] = 2.51881859959871
+Verification result: True
+Eigenvalue: 4.69780989126861
+Eigenvector:
+      0.66     -0.331     -0.408      0.536 
+
+Initial guess for eigenvalue λStart: 5
+Initial guess for eigenvector vStart: 1, 1, 1
+Eigenvalue: 4.69781001426036
+Eigenvector before normalization:
+	0.660401337338382 -0.331370478308128 -0.408150472691005 0.53616869677086 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 10
+Initial guess for eigenvector vStart: 1, 1, 1
+Eigenvalue: 11.3810908968451
+Eigenvector before normalization:
+	0.391244645766229 0.568206056738541 0.633047134766187 0.351170655677961 
+Eigenvector after normalization:
+	0.391244645766214 0.568206056738521 0.633047134766165 0.351170655677948 
+Verification: Av = λ*v ?
+	Av[0] = 4.45279087636955, λ*v[0] = 4.45279087636925
+	Av[1] = 6.46680477987937, λ*v[1] = 6.46680477987902
+	Av[2] = 7.20476698276145, λ*v[2] = 7.20476698276106
+	Av[3] = 3.99670515257569, λ*v[3] = 3.99670515257542
+Verification result: True
+Eigenvalue: 11.3810908968451
+Eigenvector:
+     0.391      0.568      0.633      0.351 
+
+Initial guess for eigenvalue λStart: 1
+Initial guess for eigenvector vStart: -1, 1, 1
+Eigenvalue: -0.169945969216207
+Eigenvector before normalization:
+	-0.536168696822391 -0.408150472730232 0.331370478339976 0.660401337401852 
+Eigenvector after normalization:
+	-0.536168696768894 -0.408150472689508 0.331370478306913 0.66040133733596 
+Verification: Av = λ*v ?
+	Av[0] = 0.0911197088566198, λ*v[0] = 0.0911197088357805
+	Av[1] = 0.069363527683135, λ*v[1] = 0.0693635276672716
+	Av[2] = -0.0563150771183858, λ*v[2] = -0.0563150771055065
+	Av[3] = -0.112232545370907, λ*v[3] = -0.112232545345239
+Verification result: True
+Eigenvalue: -0.169945969216207
+Eigenvector:
+    -0.536     -0.408      0.331       0.66 
+
+Initial guess for eigenvalue λStart: 5
+Initial guess for eigenvector vStart: -1, 1, 1
+Eigenvalue: 4.69781001425296
+Eigenvector before normalization:
+	-0.66040133733813 0.331370478308002 0.40815047269085 -0.536168696770656 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 10
+Initial guess for eigenvector vStart: -1, 1, 1
+Eigenvalue: 11.3810908968489
+Eigenvector before normalization:
+	0.391244645766372 0.568206056738736 0.633047134766403 0.35117065567809 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 1
+Initial guess for eigenvector vStart: 1, -1, 1
+Eigenvalue: 2.09104505822262
+Eigenvector before normalization:
+	0.35117065572314 -0.633047134847614 0.568206056811629 -0.391244645816564 
+Eigenvector after normalization:
+	0.351170655677955 -0.633047134766159 0.568206056738517 -0.391244645766222 
+Verification: Av = λ*v ?
+	Av[0] = 0.734313664124026, λ*v[0] = 0.734313664148183
+	Av[1] = -1.32373008273122, λ*v[1] = -1.32373008277476
+	Av[2] = 1.18814446695615, λ*v[2] = 1.18814446699524
+	Av[3] = -0.818110183058605, λ*v[3] = -0.818110183085517
+Verification result: True
+Eigenvalue: 2.09104505822262
+Eigenvector:
+     0.351     -0.633      0.568     -0.391 
+
+Initial guess for eigenvalue λStart: 5
+Initial guess for eigenvector vStart: 1, -1, 1
+Eigenvalue: 4.69780986098264
+Eigenvector before normalization:
+	0.660401381379621 -0.33137050058157 -0.408150499627944 0.536168732295328 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 10
+Initial guess for eigenvector vStart: 1, -1, 1
+Eigenvalue: 4.69781018111345
+Eigenvector before normalization:
+	0.660401572790974 -0.331370596478712 -0.408150618162953 0.536168887894833 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 1
+Initial guess for eigenvector vStart: 1, 1, -1
+Eigenvalue: 2.09104505816952
+Eigenvector before normalization:
+	-0.351170655680085 0.633047134769881 -0.568206056741835 0.391244645768555 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 5
+Initial guess for eigenvector vStart: 1, 1, -1
+Eigenvalue: 4.69781000587848
+Eigenvector before normalization:
+	0.660401340725629 -0.331370480005083 -0.408150474788944 0.536168699524627 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 10
+Initial guess for eigenvector vStart: 1, 1, -1
+Eigenvalue: 4.69781001425452
+Eigenvector before normalization:
+	0.660401337336658 -0.331370478307263 -0.408150472689939 0.536168696769461 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 1
+Initial guess for eigenvector vStart: 1, 1, 1
+Eigenvalue: -0.169945969730419
+Eigenvector before normalization:
+	0.536168696823229 0.408150472736139 -0.331370478345085 -0.660401337403129 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 5
+Initial guess for eigenvector vStart: 1, 1, 1
+Eigenvalue: 4.69781001370974
+Eigenvector before normalization:
+	-0.660401337515011 0.331370478396951 0.408150472799804 -0.536168696913917 
+Result calculated and printed already.
+
+Initial guess for eigenvalue λStart: 10
+Initial guess for eigenvector vStart: 1, 1, 1
+Eigenvalue: 11.3810910953
+Eigenvector before normalization:
+	0.391244723299951 0.568206169341402 0.633047260218926 0.351170725269766 
+Result calculated and printed already.
+
+
+
+Unique results calculated (saved in results.txt):
+
+Eigenvalue: 4.69780989126861
+Eigenvector:
+0.660401338780752 -0.331370480407261 -0.408150470735617 0.536168695178621 
+
+Eigenvalue: 11.3810908968451
+Eigenvector:
+0.391244645766214 0.568206056738521 0.633047134766165 0.351170655677948 
+
+Eigenvalue: -0.169945969216207
+Eigenvector:
+-0.536168696768894 -0.408150472689508 0.331370478306913 0.66040133733596 
+
+Eigenvalue: 2.09104505822262
+Eigenvector:
+0.351170655677955 -0.633047134766159 0.568206056738517 -0.391244645766222 
+
+
