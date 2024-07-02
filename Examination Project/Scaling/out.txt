@@ -1,0 +1,20 @@
+
+Time taken for matrix size 10x10: 12 ms
+
+Time taken for matrix size 30x30: 66 ms
+
+Time taken for matrix size 50x50: 316 ms
+
+Time taken for matrix size 80x80: 1101 ms
+
+Time taken for matrix size 100x100: 2147 ms
+
+Time taken for matrix size 120x120: 3702 ms
+
+Time taken for matrix size 130x130: 5414 ms
+
+Time taken for matrix size 142x142: 6439 ms
+
+Time taken for matrix size 150x150: 7011 ms
+
+Time taken for matrix size 160x160: 9793 ms
